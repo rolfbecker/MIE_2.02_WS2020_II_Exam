@@ -9,3 +9,10 @@ Development of exam exercises
 * [Exercise 6](doc/ex6.md)
 * [Exercise 7](doc/ex7.md)
 * [Exercise 8](doc/ex8.md)
+
+
+## Notes
+
+* https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/precipitation/historical/
+* https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/more_precip/historical/
+* https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/
