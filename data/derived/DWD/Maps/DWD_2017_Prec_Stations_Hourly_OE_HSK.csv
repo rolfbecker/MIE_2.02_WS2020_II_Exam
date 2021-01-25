@@ -1,0 +1,10 @@
+fid,station_id,date_from,date_to,altitude,latitude,longitude,name,state
+"32","216",2004-10-01,2021-01-25,"298",51.1143,7.8807,Attendorn-Neulisternohl,Nordrhein-Westfalen
+"213","1300",2004-06-01,2021-01-25,"351",51.254,8.1565,Eslohe,Nordrhein-Westfalen
+"360","2483",1995-10-12,2021-01-25,"839",51.1803,8.4891,Kahler Asten,Nordrhein-Westfalen
+"430","2947",2006-10-01,2021-01-25,"286",51.1333,8.0348,Lennestadt-Theten,Nordrhein-Westfalen
+"477","3215",2007-06-01,2021-01-25,"375",51.1683,8.7125,Medebach-Berge,Nordrhein-Westfalen
+"681","4488",2006-08-01,2021-01-25,"443",51.2127,8.2672,Schmallenberg-Sellinghausen,Nordrhein-Westfalen
+"818","5468",2006-07-01,2020-10-01,"418",50.9377,7.8475,Wenden-Dörnscheid,Nordrhein-Westfalen
+"910","6264",2004-06-01,2021-01-25,"457",51.414,8.65,Brilon-Thülen,Nordrhein-Westfalen
+"955","7330",2005-10-01,2021-01-25,"159",51.4633,7.978,Arnsberg-Neheim,Nordrhein-Westfalen
