@@ -8,7 +8,7 @@ data in the counties selected for the study. Moreover, you want to include the a
 of the counties of interest, in order to look at possible correlations of altitude and precipitation.
 You should generate a Map of the counties of interest, the active weather stations within them, and 
 the Digital Terrain Model of the region.
-### Load the vector layers corresponding to the area of interest
+### Load the vector layers corresponding to the counties of interest
 The folder */data/original/Counties_Municipalities_NRW/* provides a geopackage with the 
 counties of interest, as well as the municipalities of whole NRW.
 
@@ -36,8 +36,8 @@ with the colored DTM using transparency options.
 ### Generate a Map
 After the previous preparation you should generate a proper map using the layers generated.
 You should consider the following:
-- The 13 municipalities of interest should be clearly visible and easy to differentiate.
-- Display the names of the municipalities in an organized manner. 
+- The 13 counties of interest should be clearly visible and easy to differentiate.
+- Display the names of the counties in an organized manner. 
 - Correct color representation of the DTM.
 - The location of the active precipitation weather stations should be easy to recognize.
 - Use the stations ID for the labels.
