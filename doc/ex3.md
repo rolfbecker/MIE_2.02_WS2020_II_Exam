@@ -1,11 +1,11 @@
 # Exercise 3:Generate SMI maps of the counties of interest for the selected dates  
 Developing Exercise SMI maps...
 
-In this section you will produce 4 maps that reflect the SMI for the counties of interest for
-the 16th of May, June, July and August in 2017. Pay special attention at the strong differences
+In this section you will produce four maps that reflect the SMI for the counties of interest for
+the **16th of May, June, July and August in 2017**. Pay special attention at the strong differences
 of SMI for the counties of Olpe and Hochsauerlankreis during the first two months of the study.
 what makes them so different from the last two months? Why is Hochsauerlankreis less affected in terms
-of SMI in comparison to the other 12 counties? Use the knoledge gained from the other exercises to
+of SMI in comparison to the other twelve counties? Use the knoledge gained from the other exercises to
 find your explanations and guide your discussion.
 
 ### Load the vector layers corresponding to the counties of interest
@@ -20,8 +20,11 @@ the dates that are interesting for this report. You can find the layers in the f
 */data/original/SMI/*.
 
 Make sure that you are using an appropiate color representation. In */data/original/SMI/* we provided
-you with a color map file: "SMI_color_scale_XXX.txt". You can use it in your SMI layers so that all have the same representation.
+you with a color map file: *"SMI_color_scale_XXX.txt"*. 
+You can use it in your SMI layers so that all have the same representation.
 
+Perform the appropiate processing so you end up with a layer suitable for mapping. Remember that you
+should focus in the 13 counties of interest.
 
 #### Generate four maps
 After the previous preparation you should generate four proper SMI maps.
@@ -29,11 +32,11 @@ You should consider the following:
 - The 13 counties of interest should be clearly visible and easy to differentiate.
 - Display the names of the counties in an organized manner. 
 - Correct color representation of the SMI.
--**TENTATIVE** The location of the active precipitation weather stations should be easy to recognize.
--**TENTATIVE** Use the stations ID for the labels.
--**TENTATIVE** Make sure that you can differentiate between stations displaying precipitation-only,
+- **TENTATIVE** The location of the active precipitation weather stations should be easy to recognize.
+- **TENTATIVE** Use the stations ID for the labels.
+- **TENTATIVE** Make sure that you can differentiate between stations displaying precipitation-only,
 temperature-only, and both observations.
 - The maps should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...
-- Make sure to incluse important metadata in your maps such as sensing date, resolution and sources.
+- Make sure to include important metadata in your maps such as sensing date, resolution and sources.
 - You can display these maps in an 2x2 array manner.  
