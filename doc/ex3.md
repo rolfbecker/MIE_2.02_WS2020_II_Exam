@@ -2,11 +2,7 @@
 Developing Exercise SMI maps...
 
 In this section you will produce four maps that reflect the SMI for the counties of interest for
-the **16th of May, June, July and August in 2017**. Pay special attention at the strong differences
-of SMI for the counties of Olpe and Hochsauerlankreis during the first two months of the study.
-what makes them so different from the last two months? Why is Hochsauerlankreis less affected in terms
-of SMI in comparison to the other twelve counties? Use the knoledge gained from the other exercises to
-find your explanations and guide your discussion.
+the **16th of May, June, July and August in 2017**. 
 
 ### Load the vector layers corresponding to the counties of interest
 [See Exercise 2](ex2.md)
@@ -40,3 +36,6 @@ temperature-only, and both observations.
 - Take care of the label style, the map should not be cluttered, use correct symbology...
 - Make sure to include important metadata in your maps such as sensing date, resolution and sources.
 - You can display these maps in an 2x2 array manner.  
+
+[Previous: Exercise 2](ex2.md)
+[Next: Exercise 4](ex4.md)

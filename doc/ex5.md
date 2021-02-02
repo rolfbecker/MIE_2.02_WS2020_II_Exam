@@ -25,5 +25,8 @@ You should consider the following:
 You are generating graphs from approx. 15 weather stations (maybe using facets?)
 - Correct labeling of your graphs. Use legends when appropiate 
 - The images should be tidy. Take care of oclusions of graphs that are not readable.
-- Make sure to include relevant information in your plots, such as resolution, units, time period...
+- Make sure to include relevant information in your plots, such as time resolution, 
+units, time period...
 
+[Previous: Exercise 4](ex4.md)
+[Next: Exercise 6](ex6.md)

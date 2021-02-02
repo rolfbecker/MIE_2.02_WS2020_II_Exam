@@ -20,3 +20,5 @@ indicate which measure should be more reliable.
 - Is the result what you expected? Is there a tendency? are there outliers? Make sure to include
 all that in your discussion.
 
+[Previous: Exercise 5](ex5.md)
+[Next: Exercise 7](ex7.md)
