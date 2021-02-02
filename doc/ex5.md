@@ -28,5 +28,5 @@ You are generating graphs from approx. 15 weather stations (maybe using facets?)
 - Make sure to include relevant information in your plots, such as time resolution, 
 units, time period...
 
-[Previous: Exercise 4](ex4.md)
-[Next: Exercise 6](ex6.md)
+* [Previous: Exercise 4](ex4.md)
+* [Next: Exercise 6](ex6.md)

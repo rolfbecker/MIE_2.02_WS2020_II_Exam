@@ -46,5 +46,5 @@ temperature-only, and both observations.
 - The map should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...   
 
-[Previous: Exercise 1](ex1.md)
-[Next: Exercise 3](ex3.md)
+* [Previous: Exercise 1](ex1.md)
+* [Next: Exercise 3](ex3.md)

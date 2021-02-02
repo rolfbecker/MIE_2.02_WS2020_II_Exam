@@ -28,5 +28,5 @@ You should consider the following:
 - You should identify interesting precipitation events that you can link to the changes of SMI.
 - You should provide a link to this video in your final report. 
 
-[Previous: Exercise 3](ex3.md)
-[Next: Exercise 5](ex5.md)
+* [Previous: Exercise 3](ex3.md)
+* [Next: Exercise 5](ex5.md)

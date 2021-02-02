@@ -47,7 +47,7 @@ Provide all relevant information of your datasets, the processing and its analys
 Always think about the intention of your investigation and the reader! 
 The text has to be well structured and formulated.
 
-[Previous: Exercise 7](ex7.md)
+* [Previous: Exercise 7](ex7.md)
 
 
 

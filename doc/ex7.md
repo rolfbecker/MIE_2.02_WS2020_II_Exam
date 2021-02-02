@@ -6,5 +6,5 @@ what makes them so different from the last two months? Why is Hochsauerlankreis 
 of SMI in comparison to the other twelve counties? Use the knoledge gained from the other exercises to
 find your explanations and guide your discussion.
 
-[Previous: Exercise 6](ex6.md)
-[Next: Exercise 8](ex8.md)
+* [Previous: Exercise 6](ex6.md)
+* [Next: Exercise 8](ex8.md)
