@@ -1,4 +1,4 @@
-# Exercise 3: Generate precipitation video in QGIS
+# Exercise 3: Generate a precipitation video in QGIS
 Developing Exercise precipitation video...
 
 Among other factors the soil moisture index (SMI) is influenced by precipitation. If you have ongoing evaporation from the soil and transpiration by the plants soil water is transported into the atmosphere. Without precipitation the soil moisture would deplete and the SMI would decline.
