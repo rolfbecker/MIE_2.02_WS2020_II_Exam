@@ -30,6 +30,7 @@ The archive has to contain:
 
 - Scientific Report as **PDF(!)**,
 - any Python code used to download, convert, aggregate or otherwise process data.
+- Avoid uploading large data sets but describe clearly where the data comes from and how to download it.
 
 **Do not include large data files! Do not include any QGIS project requiring large data.**
 Other files can be added optionally.
@@ -40,7 +41,7 @@ the group is responsible for which section. Grading will be individual, so make 
 distribution of work.
 
 Your investigation is meant to verify or falsify the hypotheses if possible. 
-It is mandatory to follow best practice of structured scientific writing! 
+**It is mandatory to follow best practice of structured scientific writing!** 
 Structure the text logically. Justify and explain each step. 
 Discuss the findings critically, e.g. are data and methods sufficient to give evidence? 
 Do not write in a ‘how-to-style’! 
@@ -53,7 +54,7 @@ Your report should contain the following elements:
 - **Title page:** Meaningful title (and subtitle if applicable) of the project, 
 name and faculty of the university, study program and course name, 
 name (and title if applicable) of the supervisor(s), 
-working group name, authors’ complete names, matriculation numbers and date of submission.
+working group name, authors’ complete names, **matriculation numbers** and date of submission.
 
 - **Introduction:** Why are you performing this investigation? Why is it important? 
 What is its context, i.e. how is it embedded in the scientific domain and how does it 
@@ -96,7 +97,7 @@ Which are the open questions? **Do not add any new aspects in this section.**
 the sources of your data. Use primary literature.
 You are writing a scientific report, so use a professional citation style.
 
-- **Anex:** You should have at least an annex with your python notebook which should be commented.
+- **Annex:** You should have at least an annex with your python notebook which should be commented.
 
 - **Statement of Authorship:** Each group member should add a signed statement of authorship 
 to the final report. You can use something like this:
