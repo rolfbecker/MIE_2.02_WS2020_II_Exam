@@ -2,17 +2,18 @@
 Developing Exercise Map precipitation stations...
 
 This section of the project will serve to locate the study area and to identify the
-information available in the region
+information available in the region.
 You are interested in the distribution of weather stations that offer hourly precipitation
 data in the counties selected for the study. Moreover, you want to include the altitude profile
-of the counties of interest, in order to look at possible correlations of altitude and precipitation.
-You should generate a Map of the counties of interest, the active weather stations within them, and 
-the Digital Terrain Model of the region.
+of the counties of interest, in order to look at possible correlations between precipitation and terrain altitude.
+You should generate a map of the counties of interest, the active weather stations within them, and 
+the Digital Terrain Model (DTM) of the region.
+
 ### Load the vector layers corresponding to the counties of interest
 The folder */data/original/Counties_Municipalities_NRW/* provides a geopackage with the 
 counties of interest, as well as the municipalities of whole NRW.
 
-Open the vector layers in QGIS. And perform the geoprocesing steps required.
+Open the vector layers in QGIS. And perform the geoprocessing steps required.
 
 ### Download and process DWD weather stations description file
 The folder */jupyter/* contains a jupyter notebook similar to the one used in the lecture.
