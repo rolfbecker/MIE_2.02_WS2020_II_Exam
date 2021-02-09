@@ -1,12 +1,12 @@
 # MIE_2.02_WS2020_II_Exam
 Development of exam exercises
 
-* [Exercise 1](doc/ex1.md) Generate a Map
-* [Exercise 2](doc/ex2.md) Generate SMI maps of the counties of interest for the selected dates
-* [Exercise 3](doc/ex3.md) Generate precipitation video in QGIS
-* [Exercise 4](doc/ex4.md) Calculate cumulative precipitation time series
-* [Exercise 5](doc/ex5.md) Analyse cumulative precipitation VS Altitude (DTM)
-* [Exercise 6](doc/ex6.md) Discuss different SMI dynamics in Olpe and Hochsauerlankreis
+* [Exercise 1](doc/ex1.md) Generate a map of the main investigation area.
+* [Exercise 2](doc/ex2.md) Generate SMI maps of the counties of interest for the selected dates.
+* [Exercise 3](doc/ex3.md) Generate precipitation video in QGIS.
+* [Exercise 4](doc/ex4.md) Calculate cumulative precipitation time series.
+* [Exercise 5](doc/ex5.md) Analyse cumulative precipitation vs. altitude (from DTM).
+* [Exercise 6](doc/ex6.md) Discuss different SMI dynamics in Olpe and Hochsauerlankreis.
 * [Exercise 7](doc/ex7.md) NDVI
 * [Exercise 8](doc/ex8.md) Roof Area of Industrial Buildings
 
