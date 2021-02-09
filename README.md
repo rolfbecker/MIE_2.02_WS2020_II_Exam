@@ -32,11 +32,8 @@ The archive has to contain:
 - any Python code used to download, convert, aggregate or otherwise process data.
 - The video of the hourly spatio-temporal precipitation development (exercise 4).
 - QGIS projects with your genererated data.
-- But **avoid uploading large data sets** (such as Sentinel images) but describe clearly where the data comes from and how to download and process it. You have to enable us to redo your work completely.
-
-
-**Do not include large data files! Do not include any QGIS project requiring large data.**
-Other files can be added optionally.
+- Other files can be added if useful.
+- **Avoid uploading large data sets** (such as Sentinel images) but describe clearly where the data comes from and how to download and process it. **But you have to enable us to redo your work completely!**
 
 ### Structure of your report 
 
