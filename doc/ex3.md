@@ -3,7 +3,7 @@ Developing Exercise precipitation video...
 
 Among other factors the soil moisture index (SMI) is influenced by precipitation. If you have ongoing evaporation from the soil and transpiration by the plants soil water is transported into the atmosphere. Without precipitation the soil moisture would deplete and the SMI would decline.
 
-To get an overview of the spatio-temporal precipitation development in the federal state of Nordrhein-Westfalen (NRW) create a video using the time manager plugin of QGIS. Show the precipitation dynamics for **all DWD stations in NRW with hourly precicipitation measurements for the interval from 2017-06-16 until 2017-07-16**. This month shows the strongest change of SMI during the total period analysed.
+To get an overview of the spatio-temporal precipitation development in the federal state of Nordrhein-Westfalen (NRW) create a video using the time manager plugin of QGIS. Show the precipitation dynamics for **all DWD stations in NRW with hourly precicipitation measurements for the interval 2017-06-16T00:00:00Z <= t < 2017-06-17T00:00:00Z**. The two SMI snapshots at these dates (SMI in month June and in July, respectively) show the strongest change of SMI during the total period analysed.
 
 ### Download and process climate data
 In the folder */./jupyter/* you will find a jupyter notebook script similar to the one we developed
