@@ -40,5 +40,5 @@ temperature-only, and both observations.
 - Make sure to include important metadata in your maps such as sensing date, resolution and sources.
 - You can display these maps in an 2x2 array manner.  
 
-* [Previous(ex1.md)
+* [Previous](ex1.md)
 * [Next](ex3.md)
