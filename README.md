@@ -16,7 +16,7 @@ You can work in groups with 1 to 3 (max) students. Form groups in the Moodle cou
 
 ### Due Date
 The results of the given practical task shall be comprised of a scientific report. 
-You have to submit the assignment via Moodle latest by the **Fill in a Date** at 23:59 CET 
+You have to submit the assignment via Moodle latest by the **2021-03-21 at 23:59 CET** 
 (Central European Time Zone, German local time).
 
 ### Files to Upload
