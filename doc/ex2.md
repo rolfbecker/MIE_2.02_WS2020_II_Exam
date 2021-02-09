@@ -4,7 +4,7 @@
 Developing Exercise SMI maps...
 
 In this section you will produce four maps that reflect the SMI for the counties of interest for
-the **16th of May, June, July and August in 2017**. 
+the months May, June, July and August 2017. Please note that the monthly SMI data provided by the UFZ drought monitor are not averages over a month but are snapshots of actual values at the 16th of each month (i.e. 2017-05-16, 2017-06-16, 2017-07-16, 2017-08-16).
 
 ### Load the vector layers corresponding to the counties of interest
 [See Exercise 2](ex2.md)
