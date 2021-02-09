@@ -10,6 +10,25 @@ Development of exam exercises
 * [Exercise 7](doc/ex7.md) NDVI
 * [Exercise 8](doc/ex8.md) Roof Area of Industrial Buildings
 
+The exercises are organized such that you can use their order to structure your report. Exercise 1 allows
+you to locate the area of study. You get an idea of the spatial distibution of climate stations with respect
+of the area of study in terms of longitude, latitude and altitude. Then you start exploring the problem statement,
+in Exercise 2 you will generate four maps displaying the change of soil moisture index(SMI) of the topsoil layer 
+for four sucessive months. In Exercise 3 you will start exploring possible explanations for the SMI differences 
+found, you will start looking at the precipitation dynamics in the counties of interest. Afterwards, you will 
+use Exercise 4 to reduce your study area, by analyzing Olpe and Hochsauerlankreis with strong differences 
+of SMI during the time period analyzed. You will then calculate cumulative precipitation time series to find out if 
+this SMI behavior can be explained better while looking at the total amount of rain. 
+From this point, an intersting question arises, is then the total amount of precipitation related to the altitude
+of the weather stations? You will use Exercise 5 to explore this approach. After having collected all this data
+you will use Exercise 6 to start integrating your observations of SMI, precipitation and altitude. 
+The next two exercises will narrow your study area even more. You will explore if the SMI behavior is also
+reflected in the NDVI. For this you will only focus on three municipalities of Olpe in Exercise 7.
+Finally, in exercise 7 a new industrial building is planned for the county of Olpe. They plan to build a roof
+that can gather rain to be reused for distinct purposes. You are asked to estimate the roof area of that building
+as it is an important variable to calculate the expected precipitation for a given period.
+
+
 ## Organisation
 ### Groups
 You can work in groups with 1 to 3 (max) students. Form groups in the Moodle course is [M-IE_2.02 Geoinformatics, WS2020/21](https://moodle.hochschule-rhein-waal.de/course/view.php?id=12408) if you have not done so yet.
