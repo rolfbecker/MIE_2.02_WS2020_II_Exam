@@ -1,22 +1,22 @@
 # MIE_2.02_WS2020_II_Exam
 Development of exam exercises
 
-* [Exercise 1](doc/ex1.md)
-* [Exercise 2](doc/ex2.md)
-* [Exercise 3](doc/ex3.md)
-* [Exercise 4](doc/ex4.md)
-* [Exercise 5](doc/ex5.md)
-* [Exercise 6](doc/ex6.md)
-* [Exercise 7](doc/ex7.md)
-* [Exercise 8](doc/ex8.md)
+* [Exercise 1](doc/ex1.md) (8) Roof Area of Industrial Buildings
+* [Exercise 2](doc/ex2.md) (1) Generate a Map
+* [Exercise 3](doc/ex3.md) (2) Generate SMI maps of the counties of interest for the selected dates
+* [Exercise 4](doc/ex4.md) (3) Generate precipitation video in QGIS
+* [Exercise 5](doc/ex5.md) (4) Calculate cumulative precipitation time series
+* [Exercise 6](doc/ex6.md) (5) Analyse cumulative precipitation VS Altitude (DTM)
+* [Exercise 7](doc/ex7.md) (6) Discuss different SMI dynamics in Olpe and Hochsauerlankreis
+* [Exercise 8](doc/ex8.md) (7) NDVI
 
 ## Organisation
 ### Groups
-You can work in groups with 1 to 3 (max) students. Form groups in Moodle if not having done so yet.
+You can work in groups with 1 to 3 (max) students. Form groups in the Moodle course is [M-IE_2.02 Geoinformatics, WS2020/21](https://moodle.hochschule-rhein-waal.de/course/view.php?id=12408) if you have not done so yet.
 
 ### Due Date
 The results of the given practical task shall be comprised of a scientific report. 
-You have to submit the assignment via Moodle latest by the **Fill in a Date** at 23:59 CET 
+You have to submit the assignment via Moodle latest by the **2021-03-21 at 23:59 CET** 
 (Central European Time Zone, German local time).
 
 ### Files to Upload
@@ -30,17 +30,27 @@ The archive has to contain:
 
 - Scientific Report as **PDF(!)**,
 - any Python code used to download, convert, aggregate or otherwise process data.
+- The video of the hourly spatio-temporal precipitation development (exercise 4).
+- QGIS projects with your genererated data.
+- But **avoid uploading large data sets** (such as Sentinel images) but describe clearly where the data comes from and how to download and process it. You have to enable us to redo your work completely.
+
 
 **Do not include large data files! Do not include any QGIS project requiring large data.**
 Other files can be added optionally.
 
-### How to deliver
-You should integrate the previous exercises in a report. You have to add a description of who in 
-the group is responsible for which section. Grading will be individual, so make sure to have an equitative
+### Structure of your report 
+
+You have to write one continuous report with a story covering all the exercises mentioned.
+
+You have to add a description of who in the group is responsible for which section. Grading will be individual, so make sure to have an equitative
 distribution of work.
 
+Even if your report does not need to specifically divide the text into the above elements,
+the elements shall be easy to distinguish while reading the document. 
+Your report will be graded according to the criteria mentioned in the following section.
+
 Your investigation is meant to verify or falsify the hypotheses if possible. 
-It is mandatory to follow best practice of structured scientific writing! 
+**It is mandatory to follow best practice of structured scientific writing!** 
 Structure the text logically. Justify and explain each step. 
 Discuss the findings critically, e.g. are data and methods sufficient to give evidence? 
 Do not write in a ‘how-to-style’! 
@@ -53,7 +63,7 @@ Your report should contain the following elements:
 - **Title page:** Meaningful title (and subtitle if applicable) of the project, 
 name and faculty of the university, study program and course name, 
 name (and title if applicable) of the supervisor(s), 
-working group name, authors’ complete names, matriculation numbers and date of submission.
+working group name, authors’ complete names, **matriculation numbers** and date of submission.
 
 - **Introduction:** Why are you performing this investigation? Why is it important? 
 What is its context, i.e. how is it embedded in the scientific domain and how does it 
@@ -96,7 +106,7 @@ Which are the open questions? **Do not add any new aspects in this section.**
 the sources of your data. Use primary literature.
 You are writing a scientific report, so use a professional citation style.
 
-- **Anex:** You should have at least an annex with your python notebook which should be commented.
+- **Annex:** You should have at least an annex with your python notebook which should be commented.
 
 - **Statement of Authorship:** Each group member should add a signed statement of authorship 
 to the final report. You can use something like this:
@@ -104,9 +114,6 @@ to the final report. You can use something like this:
 	- *"I, <name>, hereby declare that my contribution to the work presented herein is my own work completed without the use of any aids other than those listed. Any material from other sources or works done by others has been given due acknowledgment and listed in the reference section. Sentences or parts of sentences quoted literally are marked as quotations; identification of other references regarding the statement and scope of the work is quoted. The work presented herein has not been published or submitted elsewhere for assessment in the same or a similar form. I will retain a copy of this assignment until after the Board of Examiners has published the results, which I will make available on request"*
 	- Notice that you will have to clearly state which parts belong to your contribution.
 
-Even if your report does not need to specifically divide the text into the above elements,
-the elements shall be easy to distinguish while reading the document. 
-Your report will be graded according to the criteria mentioned in the following section.
 
 ### Rules and Regulations
 
