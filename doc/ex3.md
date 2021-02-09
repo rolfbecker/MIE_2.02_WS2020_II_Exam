@@ -30,28 +30,15 @@ The Time Manager just selects features (i.e. stations with individual prec value
 
 *Table: Example of a relation suited for the TimeManager. The primary key of this example relation is (station_id, meas_time).*
 
-### Download and process climate data
+## Method 1: Use Python/Pandas
 
-In the folder */./jupyter/* you will find a jupyter notebook script similar to the one we developed
-in the lecture. Modify in order to retrieve hourly precipitation measurements that correspond 
-to the sensing dates of the SMI strongest change of the time span analysed 
-(16th June until 16th July 2017). 
+We used this method in class. Download via FTP the station description file as well as the relevant time series. Perform a join (merge) and save the relation as CSV. Import it into QGIS and apply the TM.You will find the appropriate notebooks in the Git repository of the course. You will have to adapt the notebooks to read hourly historical (2017) precipitation data.  
 
-You want to shape your data in such a way that it is readable in QGIS.
+Take care of the representation of the measurements. Use appropiate mapping and color scales.
 
-Take care of the representation of the measurements. You should use appropiate color scales.
+## Method 2: Use PostGIS
 
-### **TENTATIVE** Load the data in a PSQL database
-**Give indications on retrieval and linking of data with time manager**
-
-### Generate one month video of daily precipitation
-After the previous preparation you should generate a video of daily precipitation corresponding to one
-month of data.
-
-You should consider the following:
-- Appropiate color representation
-- You should identify interesting precipitation events that you can link to the changes of SMI.
-- You should provide a link to this video in your final report. 
+This method has a much better performance. IN principle it can handle big data (e.g. long time series for all stations in Germany) flexibly. The idea is to insert the station information as a vector layer with relation schema (station_id, name, altitude, geometry(point)) into a PostGIS enabled ProstgreSQL database and to insert precipitation time series data in a relation of schema (station_id (numeric(6,0)), ts (timestamp with time zone), val (REAL)).  
 
 * [Previous](ex2.md)
 * [Next](ex4.md)
