@@ -45,7 +45,7 @@ You have to write one continuous report with a story covering all the exercises 
 You have to add a description of who in the group is responsible for which section. Grading will be individual, so make sure to have an equitative
 distribution of work.
 
-Even if your report does not need to specifically divide the text into the above elements,
+Even if your report does not need to specifically divide the text into the elements described below,
 the elements shall be easy to distinguish while reading the document. 
 Your report will be graded according to the criteria mentioned in the following section.
 
