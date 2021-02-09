@@ -14,30 +14,31 @@ Development of exam exercises
 
 The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum (UFZ) Leipzig. It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture. 
 
-You will investigate SMI, precipitation, terrain and vegetation development (expressed by the normailzed difference vegetation index, NDVI) as well as potential dependencies among these quantities. The focus area of your investigation is the Sauerland, a hilly region in South-East Nordrhein-Westfalen. 
+You will investigate SMI, precipitation, terrain and vegetation development (expressed by the normalized difference vegetation index, NDVI) as well as potential dependencies among these quantities. The focus area of your investigation is the Sauerland, a hilly region in South-East Nordrhein-Westfalen. 
 
-The soil moisture and thus the soil moisture index is influenced by precipitation, among other factors. So
+The report will have the structure of a scientific report with a continuous narrative flow, even if we split the investigation in several exercises to guide you through the task. 
 
-The exercises are organized such that you can use their order to structure your report. Exercise 1 allows
-you to locate the area of study. You get an idea of the spatial distibution of climate stations with respect
-of the area of study in terms of longitude, latitude and altitude. Then you start exploring the problem statement,
-in Exercise 2 you will generate four maps displaying the change of soil moisture index(SMI) of the topsoil layer 
-for four sucessive months. In Exercise 3 you will start exploring possible explanations for the SMI differences 
-found, you will start looking at the precipitation dynamics in the counties of interest. Afterwards, you will 
-use Exercise 4 to reduce your study area, by analyzing Olpe and Hochsauerlankreis with strong differences 
-of SMI during the time period analyzed. You will then calculate cumulative precipitation time series to find out if 
-this SMI behavior can be explained better while looking at the total amount of rain. 
-From this point, an intersting question arises, is then the total amount of precipitation related to the altitude
-of the weather stations? You will use Exercise 5 to explore this approach. After having collected all this data
-you will use Exercise 6 to start integrating your observations of SMI, precipitation and altitude. 
+The exercises are organized such that you can use their order to structure your report. Exercise 1 helps you to locate the area of study. You get an idea of the spatial distibution of climate stations with respect of the area of study in terms of longitude, latitude and altitude. 
+
+Then you start exploring the problem statement focussing on soil moisture. In Exercise 2 you will generate four maps displaying the change of soil moisture index (SMI) of the topsoil layer for the four sucessive months May, June, July, August 2017. 
+
+In Exercise 3 you will start exploring possible explanations for the SMI differences found by investigating the precipitation dynamics in NRW. You will produce a video with the QGIS TimeManager and try determine the prevalent direction of moving rain fronts in June/July 2017.
+
+Afterwards, you will use Exercise 4 to reduce your study area, by analyzing the two counties Olpe and Hochsauerlankreis with strong differences in SMI development during the time period analyzed. 
+
+You will then calculate cumulative precipitation time series to find out if this SMI behavior can be explained by the total amount of rain fallen in this area. 
+Furthermore you will investigate how the total amount of precipitation is related to the altitude of the precipitation measuring weather stations. You will use Exercise 5 to explore this approach. 
+
+After having collected all this data you will use Exercise 6 to start integrating and discussing your observations of SMI, precipitation and altitude. 
+
 The next two exercises will narrow your study area even more. You will explore if the SMI behavior is also
 reflected in the NDVI. For this you will only focus on three municipalities of Olpe in Exercise 7.
-Finally, in exercise 7 a new industrial building is planned for the county of Olpe. They plan to build a roof
-that can gather rain to be reused for distinct purposes. You are asked to estimate the roof area of that building
-as it is an important variable to calculate the expected precipitation for a given period.
+
+The final exercise 8 is related to precipitation but not to drought (a bit off-topic). A new industrial building is planned in the county of Olpe. The water raining on the roof of the building has to be drained. To plan the drainage you have to determine the total amount of water collected by the roof in the four months May to August 2017. Assume that the annual precipitation sum is approximately 3 x the precipitation sum over the four months. Unfortunately you just have a scanned map of the roof plan which you have to georeference and digitize first to determine the roof area and location. Then you have to multiply the cumulative annual precipitation for the location of the roof with the roof size to get the collected total annual volume in m³/year. To get the precipitation falling on the roof you can assume that the precipitation does not vary across the roof. Unfortunately you do not have a precipitation station at the location of the planned building. There are serveral methods to estimate the local precipitation from measurements at the distributed DWD stations. The simplest way would be the method of nearest neighbor. A more sophisticated method is that of a linear estimator with weights proportional to inverse distances between the location of interest and the precipitation stations around. Find out how this works and determine the annual cumulative precipitation at the location of the new building as well as the total rain water volume collected by the roof during 2017. How much water do you have to drain?  
 
 
 ## Organisation
+
 ### Groups
 You can work in groups with 1 to 3 (max) students. Form groups in the Moodle course is [M-IE_2.02 Geoinformatics, WS2020/21](https://moodle.hochschule-rhein-waal.de/course/view.php?id=12408) if you have not done so yet.
 
