@@ -4,9 +4,9 @@ Developing Exercise Map precipitation stations...
 This section of the project will serve to locate the study area and to identify the
 information available in the region.
 You are interested in the distribution of weather stations that offer hourly precipitation
-data in the counties selected for the study. Moreover, you want to include the altitude profile
+data in the counties selected for the study. Moreover, you want to include the topography (altitude)
 of the counties of interest, in order to look at possible correlations between precipitation and terrain altitude.
-You should generate a map of the counties of interest, the active weather stations within them, and 
+You should generate a map of the counties of interest, the active precipitation stations (hourly values, active in 2017) within them, and 
 the Digital Terrain Model (DTM) of the region.
 
 ### Load the vector layers corresponding to the counties of interest
@@ -21,7 +21,7 @@ The folder */jupyter/* contains a jupyter notebook similar to the one used in th
 You should generate a point vector layer for QGIS containing the location of all weather
 stations active weather stations in the year 2017 which provide hourly precipitation data.
 
-**TENTATIVE** Additionally, generate another point vectot layer with the location of all active 
+**TENTATIVE -> DELETE!** Additionally, generate another point vectot layer with the location of all active 
 weather stations providing hourly temperature data for the same year. Generate a third point
 layer with the stations providing both observations.
 
@@ -42,7 +42,7 @@ You should consider the following:
 - Correct color representation of the DTM.
 - The location of the active precipitation weather stations should be easy to recognize.
 - Use the stations ID for the labels.
-- **TENTATIVE** Make sure that you can differentiate between stations displaying precipitation-only,
+- **TENTATIVE -> DELETE, NO TEMP!** Make sure that you can differentiate between stations displaying precipitation-only,
 temperature-only, and both observations.
 - The map should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...   
