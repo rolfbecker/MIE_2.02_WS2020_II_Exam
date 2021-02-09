@@ -1,10 +1,9 @@
 # Exercise 3: Generate precipitation video in QGIS
 Developing Exercise precipitation video...
 
-You should develop a video using the time manager function of QGIS. You are interested in showing
-the precipitation dynamics in the counties of interest. You should use hourly precipitation data
-from the German Weather Service (DWD) for a total of one month (The strongest change of SMI during the 
-period analysed).
+Among other factors the soil moisture index (SMI) is influenced by precipitation. If you have ongoing evaporation from the soil and transpiration by the plants soil water is transported into the atmosphere. Without precipitation the soil moisture would deplete and the SMI would decline.
+
+To get an overview of the spatio-temporal precipitation development in the federal state of Nordrhein-Westfalen (NRW) create a video using the time manager plugin of QGIS. Show the precipitation dynamics for **all DWD stations in NRW with hourly precicipitation measurements for the interval from 2017-06-16 until 2017-07-16**. This month shows the strongest change of SMI during the total period analysed.
 
 ### Download and process climate data
 In the folder */./jupyter/* you will find a jupyter notebook script similar to the one we developed
