@@ -1,32 +1,24 @@
-# Exercise 4: Calculate cumulative precipitation time series
-Developing cumulative precipitation time series...
+# Exercise 5: Analyse cumulative precipitation VS Altitude (DTM)
+Developing Exercise 6 Cumulative PP vs Alt...
 
-In this section you want to narrow down your area of study. You have noticed the strong differences of 
-SMI between Olpe and Hochsauerlandkreis for the months of May and June of 2017. These response is 
-atenuated in July, and in August the SMI is almost homogenous. How can you explain this?
-Does it have something to do with precipitation events? You will have to use the precipitation
-data offered by the German Weather Service (DWD) to find out.
+In this activity you should compare the altitude of the weather stations sensed from the DTM 50m 
+resolution layer with the altitude provided in the stations metadata. Are there any differences? 
+Where do they come from? 
 
-### Aggregate hourly precipitation to achieve daily resolution
-Use the notebook provided in order to filter and aggregate your precipitation measurements.
-You should narrow down this analysis for the weather stations of
-counties of Olpe and Hochsauerlandkreis. 
-From your hourly values. Write a script to aggregate the data to an hourly resolution. 
-
-### Cumulative precipitation time series
-You should generate two diagrams: 
-
-- A bar chart of the daily precipitation covering the four months of the study 
-(from 2017.04.16 until 2017.08.16)to identify interesting precipitationevents
-- A scatter plot of the cumulative precipitation (amount of water in time) for the same time period.
+Additionally, you will start gathering all the knowledge learnt from the previous exercises.
+It is time to start working on your discussions. Firstly, focus on the cumulative precipitation
+values at the end of the investigation period (2017-08-17?). Compare the measured values with
+the altitude of the stations from the DTM layer. Are there any differences? Can you find any patterns?
+How can you explain it?
 
 You should consider the following:
-- Think about how to organize the representation. 
-You are generating graphs from approx. 15 weather stations (maybe using facets?)
-- Correct labeling of your graphs. Use legends when appropiate 
-- The images should be tidy. Take care of oclusions of graphs that are not readable.
-- Make sure to include relevant information in your plots, such as time resolution, 
-units, time period...
+- You can directly compare the altitude values by using a nx2 table. Where n is the number of 
+weather stations compared.
+- Make sure to somehow indicate strong differences. You should try to find an explanation for them and
+indicate which measure should be more reliable.
+- Figure out if you can plot final value of cumulative precipitation VS Altitude of weather station.
+- Is the result what you expected? Is there a tendency? are there outliers? Make sure to include
+all that in your discussion.
 
-* [Previous: Exercise 4](ex4.md)
-* [Next: Exercise 6](ex6.md)
+* [Previous](ex4.md)
+* [Next](ex6.md)

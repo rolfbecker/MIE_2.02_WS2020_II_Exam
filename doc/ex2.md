@@ -1,49 +1,43 @@
-# Exercise 1: Generate a Map
-Developing Exercise Map precipitation stations...
+# Exercise 2:Generate SMI maps of the counties of interest for the selected dates  
 
-This section of the project will serve to locate the study area and to identify the
-information available in the region
-You are interested in the distribution of weather stations that offer hourly precipitation
-data in the counties selected for the study. Moreover, you want to include the altitude profile
-of the counties of interest, in order to look at possible correlations of altitude and precipitation.
-You should generate a Map of the counties of interest, the active weather stations within them, and 
-the Digital Terrain Model of the region.
+
+Developing Exercise SMI maps...
+
+In this section you will produce four maps that reflect the SMI for the counties of interest for
+the **16th of May, June, July and August in 2017**. 
+
 ### Load the vector layers corresponding to the counties of interest
-The folder */data/original/Counties_Municipalities_NRW/* provides a geopackage with the 
-counties of interest, as well as the municipalities of whole NRW.
+[See Exercise 2](ex2.md)
 
-Open the vector layers in QGIS. And perform the geoprocesing steps required.
+### Load the SMI layers for Germany
+You will use soil moisture index data for germany in the topsoil layer. 
+This data is provided by  UFZ Drought Monitor / Helmholtz Centre for Environmental Research. 
+The original dataset can be downloaded in Netcdf format from https://www.ufz.de/index.php?en=37937 
+and covers the period between 1951 and 2018. In order to save you some time we have extracted 
+the dates that are interesting for this report. You can find the layers in the folder 
+*/data/original/SMI/*.
 
-### Download and process DWD weather stations description file
-The folder */jupyter/* contains a jupyter notebook similar to the one used in the lecture.
+Make sure that you are using an appropiate color representation. In */data/original/SMI/* we provided
+you with a color map file: *"SMI_color_scale_XXX.txt"*. 
+You can use it in your SMI layers so that all have the same representation.
 
-You should generate a point vector layer for QGIS containing the location of all weather
-stations active weather stations in the year 2017 which provide hourly precipitation data.
+Perform the appropiate processing so you end up with a layer suitable for mapping. Remember that you
+should focus in the 13 counties of interest.
 
-**TENTATIVE** Additionally, generate another point vectot layer with the location of all active 
-weather stations providing hourly temperature data for the same year. Generate a third point
-layer with the stations providing both observations.
-
-### Download DTM data for the area of interest
-Given the spatial extend of the area of interest, you can use a lower resolution DTM for this
-part of the analysis. You can find the DTM for the region of NRW with 50m resolution following
-this link: https://data.opendataportal.at/dataset/dtm-germany/resource/c6aae7d1-c9dc-4e44-a9b2-10be2ed25dfe
-
-Find an appropiate color representation after loading it in QGIS. Find out how to improve the
-DTM representation e.g. give it some texture by generating a Hill Shade Model and overlaying it
-with the colored DTM using transparency options.
-
-### Generate a Map
-After the previous preparation you should generate a proper map using the layers generated.
+#### Generate four maps
+After the previous preparation you should generate four proper SMI maps.
 You should consider the following:
 - The 13 counties of interest should be clearly visible and easy to differentiate.
 - Display the names of the counties in an organized manner. 
-- Correct color representation of the DTM.
-- The location of the active precipitation weather stations should be easy to recognize.
-- Use the stations ID for the labels.
+- Correct color representation of the SMI.
+- **TENTATIVE** The location of the active precipitation weather stations should be easy to recognize.
+- **TENTATIVE** Use the stations ID for the labels.
 - **TENTATIVE** Make sure that you can differentiate between stations displaying precipitation-only,
 temperature-only, and both observations.
-- The map should include scale and nord arrow.
-- Take care of the label style, the map should not be cluttered, use correct symbology...   
+- The maps should include scale and nord arrow.
+- Take care of the label style, the map should not be cluttered, use correct symbology...
+- Make sure to include important metadata in your maps such as sensing date, resolution and sources.
+- You can display these maps in an 2x2 array manner.  
 
-* [Next](ex2.md)
+* [Previous(ex1.md)
+* [Next](ex3.md)

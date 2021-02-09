@@ -1,24 +1,10 @@
-# Exercise 5: Analyse cumulative precipitation VS Altitude (DTM)
-Developing Exercise 6 Cumulative PP vs Alt...
+# Exercise 6: Discuss different SMI dynamics in Olpe and Hochsauerlankreis
 
-In this activity you should compare the altitude of the weather stations sensed from the DTM 50m 
-resolution layer with the altitude provided in the stations metadata. Are there any differences? 
-Where do they come from? 
+Pay special attention at the strong differences
+of SMI for the counties of Olpe and Hochsauerlankreis during the first two months of the study.
+what makes them so different from the last two months? Why is Hochsauerlankreis less affected in terms
+of SMI in comparison to the other twelve counties? Use the knoledge gained from the other exercises to
+find your explanations and guide your discussion.
 
-Additionally, you will start gathering all the knowledge learnt from the previous exercises.
-It is time to start working on your discussions. Firstly, focus on the cumulative precipitation
-values at the end of the investigation period (2017-08-17?). Compare the measured values with
-the altitude of the stations from the DTM layer. Are there any differences? Can you find any patterns?
-How can you explain it?
-
-You should consider the following:
-- You can directly compare the altitude values by using a nx2 table. Where n is the number of 
-weather stations compared.
-- Make sure to somehow indicate strong differences. You should try to find an explanation for them and
-indicate which measure should be more reliable.
-- Figure out if you can plot final value of cumulative precipitation VS Altitude of weather station.
-- Is the result what you expected? Is there a tendency? are there outliers? Make sure to include
-all that in your discussion.
-
-* [Previous: Exercise 5](ex5.md)
-* [Next: Exercise 7](ex7.md)
+* [Previous](ex5.md)
+* [Next](ex7.md)
