@@ -38,10 +38,16 @@ The archive has to contain:
 **Do not include large data files! Do not include any QGIS project requiring large data.**
 Other files can be added optionally.
 
-### How to deliver
-You should integrate the previous exercises in a report. You have to add a description of who in 
-the group is responsible for which section. Grading will be individual, so make sure to have an equitative
+### Structure of your report 
+
+You have to write one continuous report with a story covering all the exercises mentioned.
+
+You have to add a description of who in the group is responsible for which section. Grading will be individual, so make sure to have an equitative
 distribution of work.
+
+Even if your report does not need to specifically divide the text into the above elements,
+the elements shall be easy to distinguish while reading the document. 
+Your report will be graded according to the criteria mentioned in the following section.
 
 Your investigation is meant to verify or falsify the hypotheses if possible. 
 **It is mandatory to follow best practice of structured scientific writing!** 
@@ -108,9 +114,6 @@ to the final report. You can use something like this:
 	- *"I, <name>, hereby declare that my contribution to the work presented herein is my own work completed without the use of any aids other than those listed. Any material from other sources or works done by others has been given due acknowledgment and listed in the reference section. Sentences or parts of sentences quoted literally are marked as quotations; identification of other references regarding the statement and scope of the work is quoted. The work presented herein has not been published or submitted elsewhere for assessment in the same or a similar form. I will retain a copy of this assignment until after the Board of Examiners has published the results, which I will make available on request"*
 	- Notice that you will have to clearly state which parts belong to your contribution.
 
-Even if your report does not need to specifically divide the text into the above elements,
-the elements shall be easy to distinguish while reading the document. 
-Your report will be graded according to the criteria mentioned in the following section.
 
 ### Rules and Regulations
 
