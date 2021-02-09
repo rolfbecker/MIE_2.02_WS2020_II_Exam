@@ -7,10 +7,27 @@ To get an overview of the spatio-temporal precipitation development in the feder
 
 The two SMI maps for month June and July are snapshots at 2017-06-16 and 2017-07-16, respectively. The step from June to July shows the strongest change of SMI during the total period analysed.
 
-## QGIS TimeManager plugin: required data format
+## QGIS TimeManager plugin
 
-| Hallo | Welt |
-| --- | --- |
+The TimeManager (TM) plugin allows you to display snapshots of time-varying attribute data of vector layers. Before you can use the TM some data processing is necessary to provide the right data format to the TM. Technically you have to realize a 1:N relationship between two relations: (1) station info (including geodata/coordinates) with key (station_id) and (2) the time varying precipitation measurements with key (station_id, timestamp).  
+
+Each precipitation station has to be joined with its prec time series consisting of N measurements externally, e.g. done with Pandas/Python and stored as CSV. Each station is copied N times. Each copy is then extended with the actual measurement for a given time. In QGIS these features sharing the same location (i.e. station information) are plotted on top of each other. The data is highly redundent. This is done for all stations in a region of interest and all measurement times in the time series data.
+
+The Time Manager just selects features (i.e. stations with individual prec values) for a given time stamp. That means for a given selection time only N stations with their prec values are remaining and displayed. In this way you can create a sequence of maps showing the precipitation distribution across the stations for each measurement time. These maps can be stored as images which can be combined to a video in post processing.
+
+
+| station_id |        name        |   lat   |   lon  |        meas_time       | prec_rate |
+|:----------:|:------------------:|:-------:|:------:|:----------------------:|:---------:|
+|        ... | ...                |     ... |    ... |                    ... |       ... |
+|       1595 | Gelsenkirchen-Buer | 51.5762 | 7.0652 | 2017-06-07T08:00:00UTC |       1.5 |
+|       1595 | Gelsenkirchen-Buer | 51.5762 | 7.0652 | 2017-06-07T09:00:00UTC |       1.7 |
+|       1595 | Gelsenkirchen-Buer | 51.5762 | 7.0652 | 2017-06-07T10:00:00UTC |       0.1 |
+|        ... | ...                |     ... |    ... |                    ... |       ... |
+|      13670 | Duisburg-Baerl     | 51.5088 | 6.7018 | 2017-06-07T08:00:00UTC |       0.8 |
+|      13670 | Duisburg-Baerl     | 51.5088 | 6.7018 | 2017-06-07T09:00:00UTC |       0.4 |
+|      13670 | Duisburg-Baerl     | 51.5088 | 6.7018 | 2017-06-07T10:00:00UTC |       0.0 |
+|        ... | ...                |     ... |    ... |                    ... |       ... |
+*Table: Example of a relation suited for the TimeManager. The primary key of this example relation is (station_id, meas_time).*
 
 ### Download and process climate data
 
