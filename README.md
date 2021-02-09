@@ -10,6 +10,14 @@ Development of exam exercises
 * [Exercise 7](doc/ex7.md) NDVI
 * [Exercise 8](doc/ex8.md) Roof Area of Industrial Buildings
 
+## Introduction
+
+The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum (UFZ) Leipzig. It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture. 
+
+You will investigate SMI, precipitation, terrain and vegetation development (expressed by the normailzed difference vegetation index, NDVI) as well as potential dependencies among these quantities. The focus area of your investigation is the Sauerland, a hilly region in South-East Nordrhein-Westfalen. 
+
+The soil moisture and thus the soil moisture index is influenced by precipitation, among other factors. So
+
 The exercises are organized such that you can use their order to structure your report. Exercise 1 allows
 you to locate the area of study. You get an idea of the spatial distibution of climate stations with respect
 of the area of study in terms of longitude, latitude and altitude. Then you start exploring the problem statement,
