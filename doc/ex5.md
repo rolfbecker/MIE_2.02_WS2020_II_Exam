@@ -1,4 +1,4 @@
-# Exercise 5: Calculate cumulative precipitation time series
+# Exercise 4: Calculate cumulative precipitation time series
 Developing cumulative precipitation time series...
 
 In this section you want to narrow down your area of study. You have noticed the strong differences of 

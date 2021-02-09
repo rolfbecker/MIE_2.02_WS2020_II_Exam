@@ -1,4 +1,4 @@
-# Exercise 3:Generate SMI maps of the counties of interest for the selected dates  
+# Exercise 2:Generate SMI maps of the counties of interest for the selected dates  
 Developing Exercise SMI maps...
 
 In this section you will produce four maps that reflect the SMI for the counties of interest for

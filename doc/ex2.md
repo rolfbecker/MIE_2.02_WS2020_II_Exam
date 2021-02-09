@@ -1,4 +1,4 @@
-# Exercise 2: Generate a Map
+# Exercise 1: Generate a Map
 Developing Exercise Map precipitation stations...
 
 This section of the project will serve to locate the study area and to identify the
@@ -46,5 +46,4 @@ temperature-only, and both observations.
 - The map should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...   
 
-* [Previous: Exercise 1](ex1.md)
-* [Next: Exercise 3](ex3.md)
+* [Next](ex2.md)

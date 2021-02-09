@@ -1,4 +1,4 @@
-# Exercise 6: Analyse cumulative precipitation VS Altitude (DTM)
+# Exercise 5: Analyse cumulative precipitation VS Altitude (DTM)
 Developing Exercise 6 Cumulative PP vs Alt...
 
 In this activity you should compare the altitude of the weather stations sensed from the DTM 50m 

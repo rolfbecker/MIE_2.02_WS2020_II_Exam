@@ -1,4 +1,4 @@
-# Exercise 4: Generate precipitation video in QGIS
+# Exercise 3: Generate precipitation video in QGIS
 Developing Exercise precipitation video...
 
 You should develop a video using the time manager function of QGIS. You are interested in showing
