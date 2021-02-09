@@ -27,7 +27,8 @@ The Time Manager just selects features (i.e. stations with individual prec value
 |      13670 | Duisburg-Baerl     | 51.5088 | 6.7018 | 2017-06-07T09:00:00UTC |       0.4 |
 |      13670 | Duisburg-Baerl     | 51.5088 | 6.7018 | 2017-06-07T10:00:00UTC |       0.0 |
 |        ... | ...                |     ... |    ... |                    ... |       ... |
-| *Table: Example of a relation suited for the TimeManager. The primary key of this example relation is (station_id, meas_time).* ||||||
+
+*Table: Example of a relation suited for the TimeManager. The primary key of this example relation is (station_id, meas_time).*
 
 ### Download and process climate data
 
