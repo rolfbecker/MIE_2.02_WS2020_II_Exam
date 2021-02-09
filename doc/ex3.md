@@ -10,7 +10,7 @@ The two SMI maps for month June and July are snapshots at 2017-06-16 and 2017-07
 ## QGIS TimeManager plugin: required data format
 
 | Hallo | Welt |
-
+| --- | --- |
 
 ### Download and process climate data
 
