@@ -7,7 +7,13 @@ To get an overview of the spatio-temporal precipitation development in the feder
 
 The two SMI maps for month June and July are snapshots at 2017-06-16 and 2017-07-16, respectively. The step from June to July shows the strongest change of SMI during the total period analysed.
 
+## QGIS TimeManager plugin: required data format
+
+| Hallo | Welt |
+
+
 ### Download and process climate data
+
 In the folder */./jupyter/* you will find a jupyter notebook script similar to the one we developed
 in the lecture. Modify in order to retrieve hourly precipitation measurements that correspond 
 to the sensing dates of the SMI strongest change of the time span analysed 
