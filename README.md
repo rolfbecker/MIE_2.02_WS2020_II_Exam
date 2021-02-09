@@ -12,7 +12,7 @@ Development of exam exercises
 
 ## Organisation
 ### Groups
-You can work in groups with 1 to 3 (max) students. Form groups in Moodle if not having done so yet.
+You can work in groups with 1 to 3 (max) students. Form groups in Moodle if not having done so yet. The Moodle course is [M-IE_2.02 Geoinformatics, WS2020/21](https://moodle.hochschule-rhein-waal.de/course/view.php?id=12408)
 
 ### Due Date
 The results of the given practical task shall be comprised of a scientific report. 
