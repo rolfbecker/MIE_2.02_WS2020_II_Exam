@@ -29,10 +29,11 @@ After the previous preparation you should generate four proper SMI maps.
 You should consider the following:
 - The 13 counties of interest should be clearly visible and easy to differentiate.
 - Display the names of the counties in an organized manner. 
-- Correct color representation of the SMI.
-- **TENTATIVE** The location of the active precipitation weather stations should be easy to recognize.
-- **TENTATIVE** Use the stations ID for the labels.
-- **TENTATIVE** Make sure that you can differentiate between stations displaying precipitation-only,
+- Use the same map extent and scale factor in all maps.
+- Use the correct color scale of the SMI. Use the same color scaling intervals in all maps. 
+- **TENTATIVE -> OK?** The symbol for the precipitation stations should be easy to recognize.
+- **TENTATIVE -> OK. WHY NOT?** Use the stations ID for the labels.
+- **TENTATIVE -> DELETE** Make sure that you can differentiate between stations displaying precipitation-only,
 temperature-only, and both observations.
 - The maps should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...
