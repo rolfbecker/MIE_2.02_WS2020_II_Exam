@@ -32,13 +32,14 @@ The Time Manager just selects features (i.e. stations with individual prec value
 
 ## Method 1: Use Python/Pandas
 
-We used this method in class. Download via FTP the station description file as well as the relevant time series. Perform a join (merge) and save the relation as CSV. Import it into QGIS and apply the TM.You will find the appropriate notebooks in the Git repository of the course. You will have to adapt the notebooks to read hourly historical (2017) precipitation data.  
+We used this method in class. Download via FTP the station description file as well as the relevant time series. Perform a join (merge) and save the relation as CSV. Import it into QGIS and apply the TM. **You will find the notebooks to start with in the Git repository of the course**. You will have to adapt the notebooks to read hourly historical (2017) precipitation data.  
 
-Take care of the representation of the measurements. Use appropiate mapping and color scales.
+Take care of the representation of the measurements in QGIS. Use appropiate mapping and color scales.
 
-## Method 2: Use PostGIS
+## Method 2: Use PostGIS (much cooler, yields extra points!)
 
-This method has a much better performance. IN principle it can handle big data (e.g. long time series for all stations in Germany) flexibly. The idea is to insert the station information as a vector layer with relation schema (station_id, name, altitude, geometry(point)) into a PostGIS enabled ProstgreSQL database and to insert precipitation time series data in a relation of schema (station_id (numeric(6,0)), ts (timestamp with time zone), val (REAL)).  
+This method has a much better performance. In principle it can handle big data (e.g. long time series for all stations in Germany) flexibly. The idea is to insert the station information as a vector layer with relation schema (station_id, name, altitude, geometry(point)) into a PostGIS enabled ProstgreSQL database and to insert precipitation time series data in a relation of schema (station_id (numeric(6,0)), ts (timestamp with time zone), val (REAL)). Then you create a view joining station info (providing a geometry column with station location points) and time series on station_id yielding the above mentioned 1:N relationship. This view can be used in QGIS. Import it via the menu 
+`Layer -> Add Layer -> Add PostGIS Layers ...`   
 
 * [Previous](ex2.md)
 * [Next](ex4.md)
