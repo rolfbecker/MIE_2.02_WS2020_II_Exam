@@ -1,5 +1,4 @@
 # Exercise 8: Roof Tops of Industrial Buildings
-Working on description Roof Tops of Industrial Buildings:
 
 A new industrial facility is planned in the county of Olpe. 
 The water raining on the roof of the buildings has to be drained. 
