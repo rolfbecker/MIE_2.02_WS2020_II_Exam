@@ -1,5 +1,5 @@
 # MIE_2.02_WS2020_II_Exam
-Development of exam exercises
+Overview of exercises guiding your investigation:
 
 * [Exercise 1](doc/ex1.md) Generate a map of the main investigation area.
 * [Exercise 2](doc/ex2.md) Generate SMI maps of the counties of interest for the selected dates.
