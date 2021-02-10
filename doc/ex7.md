@@ -1,5 +1,4 @@
 # Exercise 7: NDVI
-Developing NDVI exercise...
 
 You want to assess if the strong changes observed in the SMI between April-/May-2017, and May-/June-2017 
 can also be appreciated by analysing the NDVI of a subset of areas of interest in the

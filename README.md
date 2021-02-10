@@ -1,5 +1,5 @@
 # MIE_2.02_WS2020_II_Exam
-Development of exam exercises
+Overview of exercises guiding your investigation:
 
 * [Exercise 1](doc/ex1.md) Generate a map of the main investigation area.
 * [Exercise 2](doc/ex2.md) Generate SMI maps of the counties of interest for the selected dates.
@@ -12,7 +12,7 @@ Development of exam exercises
 
 ## Introduction
 
-The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum (UFZ) Leipzig. It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture. 
+The Soil Moisture Index (SMI) is a product from the Drought Monitor of Umweltforschungszentrum Leipzig (UFZ). It classifies the soil moisture in soil moisture index classes (drought classes) according to the long-term local soil moisture distribution. The assignment of a particular soil moisture value to a soil moisture index is not fixed but depends on the history of the local soil moisture distribution over time. Example: A soil moisture of 10% (volumetric) might be classified as very dry at a usually wet location with a higher mean moisture over the last decades but classified as moderate at another location with lower mean moisture. 
 
 You will investigate SMI, precipitation, terrain and vegetation development (expressed by the normalized difference vegetation index, NDVI) as well as potential dependencies among these quantities. The focus area of your investigation is the Sauerland, a hilly region in South-East Nordrhein-Westfalen. 
 
