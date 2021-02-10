@@ -1,5 +1,4 @@
 # Exercise 5: Analyse cumulative precipitation vs altitude (DTM)
-Developing Exercise 6 Cumulative PP vs Alt...
 
 Investigate the relationship of cumulative precipitation and altitude of the precipitation stations for all stations of the 13 counties. Take the station altitudes from the station description file (station metadata). Sum up the precipitation per station for the four months May, June, July and August 2017 and plot it vs. altitude. Do you see a relationship? 
 
