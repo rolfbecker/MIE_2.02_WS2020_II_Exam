@@ -3,7 +3,7 @@
 This exercise helps you to locate the study area and to identify the
 information available in the region.
 You are interested in the distribution of weather stations that offer hourly precipitation
-data in the 13 counties selected for the study. Moreover, you want to include the topography (altitude)
+data (in 2017) in the 13 counties selected for the study. Moreover, you want to include the topography (altitude)
 of the counties of interest, in order to look at possible correlations between precipitation and terrain altitude.
 You should generate a map of the 13 counties of interest, the active precipitation stations (hourly values, active in 2017) within them, and 
 the Digital Terrain Model (DTM) of the region.
