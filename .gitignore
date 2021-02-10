@@ -1,0 +1,28 @@
+# R. Becker, 2021-02-02, V001
+
+# Use .gitignore to not share all data and projects at once.
+# By default ignore all directories containing solutions, scratch files shown in class and development versions
+
+*_soln/
+*_dev/
+*_INCLASS/
+tmp/
+
+#data/
+#data/original/DTM_Xanten*
+
+data/original/NRW_DTM_Xanten/dgm1_05170052_Xanten_EPSG4647_XYZ/
+data/original/NRW_DOP_Olpe/
+
+data/original/DWD/
+
+#data/generated/DWD/hourly/precipitation/recent/prec_ts_appended.csv
+
+*.ipynb_checkpoints/
+*checkpoint.ipynb
+__pycache__
+
+
+# Exceptions allow to disseminate the solutions selectively.
+
+#!geo0800_..._soln
