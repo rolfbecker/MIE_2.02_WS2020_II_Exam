@@ -41,7 +41,7 @@ Take care of the representation of the measurements in QGIS. Use appropiate mapp
 This method has a much better performance. In principle it can handle big data (e.g. long time series for all stations in Germany) flexibly. The idea is to insert the station information as a vector layer with relation schema (station_id, name, altitude, geometry(point)) into a PostGIS enabled ProstgreSQL database and to insert precipitation time series data in a relation of schema (station_id (numeric(6,0)), ts (timestamp with time zone), val (REAL)). Then you create a view joining station info (providing a geometry column with station location points) and time series on station_id yielding the above mentioned 1:N relationship. This view can be used in QGIS. Import it via the menu 
 `Layer -> Add Layer -> Add PostGIS Layers ...`   
 
-You will find additional information in the new repository https://github.com/rolfbecker/opengeo . We use it to reorganize part of our training material. It is under construction and incomplete. Anyway, have a look at activities geo0910, geo0920, geo0930.
+You will find additional information in the new repository https://github.com/rolfbecker/opengeo . We use it to reorganize part of our training material. It is under construction and incomplete. Anyway, have a look at activity geo0930.
 
 * [Previous](ex2.md)
 * [Next](ex4.md)
