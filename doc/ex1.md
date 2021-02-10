@@ -1,6 +1,6 @@
 # Exercise 1: Generate a Map
 
-This exwercise helps you to locate the study area and to identify the
+This exercise helps you to locate the study area and to identify the
 information available in the region.
 You are interested in the distribution of weather stations that offer hourly precipitation
 data in the 13 counties selected for the study. Moreover, you want to include the topography (altitude)
