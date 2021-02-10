@@ -1,5 +1,4 @@
 # Exercise 1: Generate a Map
-Developing Exercise Map precipitation stations...
 
 This section of the project will serve to locate the study area and to identify the
 information available in the region.
@@ -21,10 +20,6 @@ The folder */jupyter/* contains a jupyter notebook similar to the one used in th
 You should generate a point vector layer for QGIS containing the location of all weather
 stations active weather stations in the year 2017 which provide hourly precipitation data.
 
-**TENTATIVE -> DELETE!** Additionally, generate another point vectot layer with the location of all active 
-weather stations providing hourly temperature data for the same year. Generate a third point
-layer with the stations providing both observations.
-
 ### Download DTM data for the area of interest
 Given the spatial extend of the area of interest, you can use a lower resolution DTM for this
 part of the analysis. You can find the DTM for the region of NRW with 50m resolution following
@@ -42,8 +37,6 @@ You should consider the following:
 - Correct color representation of the DTM.
 - The location of the active precipitation weather stations should be easy to recognize.
 - Use the stations ID for the labels.
-- **TENTATIVE -> DELETE, NO TEMP!** Make sure that you can differentiate between stations displaying precipitation-only,
-temperature-only, and both observations.
 - The map should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...   
 

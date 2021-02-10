@@ -1,10 +1,10 @@
 # Exercise 2: Generate SMI maps of the counties of interest for the selected dates  
-
-
-Developing Exercise SMI maps...
+Working on Exercise 2.... (Decide on which color scale to use. Check in */data/original/SMI/* with QGIS)
 
 In this section you will produce four maps that reflect the SMI for the counties of interest for
-the months May, June, July and August 2017. Please note that the monthly SMI data provided by the UFZ drought monitor are not averages over a month but are snapshots of actual values at the 16th of each month (i.e. 2017-05-16, 2017-06-16, 2017-07-16, 2017-08-16).
+the months May, June, July and August 2017. Please note that the monthly SMI data provided by the UFZ 
+drought monitor are not averages over a month but are snapshots of actual values at the 16th of each month 
+(i.e. 2017-05-16, 2017-06-16, 2017-07-16, 2017-08-16).
 
 ### Load the vector layers corresponding to the counties of interest
 [See Exercise 2](ex2.md)
@@ -31,10 +31,8 @@ You should consider the following:
 - Display the names of the counties in an organized manner. 
 - Use the same map extent and scale factor in all maps.
 - Use the correct color scale of the SMI. Use the same color scaling intervals in all maps. 
-- **TENTATIVE -> OK?** The symbol for the precipitation stations should be easy to recognize.
-- **TENTATIVE -> OK. WHY NOT?** Use the stations ID for the labels.
-- **TENTATIVE -> DELETE** Make sure that you can differentiate between stations displaying precipitation-only,
-temperature-only, and both observations.
+- The symbol for the precipitation stations should be easy to recognize.
+- Use the stations ID for the labels.
 - The maps should include scale and nord arrow.
 - Take care of the label style, the map should not be cluttered, use correct symbology...
 - Make sure to include important metadata in your maps such as sensing date, resolution and sources.
