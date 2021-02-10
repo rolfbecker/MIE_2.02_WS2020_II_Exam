@@ -1,8 +1,8 @@
 # Exercise 4: Calculate cumulative precipitation time series
 
 In this section you want to narrow down your area of study. You have noticed the strong differences of 
-SMI between Olpe (OE) and Hochsauerlandkreis (HSK) for the months of May and June of 2017. The difference 
-is decreasing in July, and in August the SMI become quite similar. How can you explain this?
+SMI between Olpe (OE) and Hochsauerlandkreis (HSK) for the months May and June 2017. The difference 
+decreases in July, and in August the SMI become quite similar. How can you explain this?
 Does it have something to do with precipitation events? You will have to use the precipitation
 data offered by the German Weather Service (DWD) to find out.
 
@@ -17,7 +17,7 @@ counties of Olpe and Hochsauerlandkreis. Write a Python/Pandas script to aggrega
 You should generate two diagrams: 
 
 - A bar chart of the daily precipitation rates (mm/day) covering the four months of the study 
-(from 2017.04.16 until 2017.08.16) to identify interesting precipitation events
+(from 2017-04-16 until 2017-08-16) to identify interesting precipitation events
 - A line graph showing the cumulative precipitation for the same period.
 
 You should consider the following:
