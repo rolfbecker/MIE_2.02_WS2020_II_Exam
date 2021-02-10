@@ -1,4 +1,4 @@
-# Exercise 8: Roof Tops of Industrial Buildings
+# Exercise 8: Dimension a roof drainage for two new industrial buildings.
 
 A new industrial facility with two buildings is planned in the county of Olpe. 
 The water raining on the roof of the buildings has to be drained. 
