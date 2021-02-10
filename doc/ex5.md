@@ -2,7 +2,7 @@
 
 Investigate the relationship of cumulative precipitation and altitude of the precipitation stations for all stations located in the 13 counties. Take the station altitudes from the station description file (station metadata). Sum up the precipitation per station for the four months May, June, July and August 2017 (one total rainfall value per station) and plot it vs. altitude. Do you see a relationship? 
 
-Create a map with the precipitation stations of the 13 counties together with the DTM 50m (similar to previous exercises). Change the stations' symbol color according to the precipitation sum (total rainfall) over the four months. Do you see a relationship between total rain water gathered in four months and the station altitude?
+Create a map with the precipitation stations of the 13 counties together with the DTM 50m (similar to previous exercises). Change the stations' symbol color according to the precipitation sum (total rainfall) over the four months. Do you see a relationship between total rain water gathered in four months and the station location?
 
 Compare the station altitudes given in the station metadata with the DTM altitudes at the station locations. You can sample the DTM at the point features of the station layer easily and add this information to the attribute table of the station layer. Plot the differences between the two altitude values for the stations. What do you observe? Where do these diferences come from? What do you think: Which one would be more precise? Explain.
 
