@@ -22,8 +22,8 @@ You can use it in your SMI layers so that all have the same representation.
 Perform the appropiate processing so you end up with a layer suitable for mapping. Remember that you
 should focus in the 13 counties of interest.
 
-### Generate four maps
-After the previous preparation you should generate four proper SMI maps.
+### Generate four SMI maps  for may, June, July, August
+After the previous preparation you should generate four proper SMI maps (May til August, i.e. 2017-05-16, 2017-06-16, 2017-07-16, 2017-08-16).
 You should consider the following:
 - The 13 counties of interest should be clearly visible and easy to differentiate.
 - Display the names of the counties in an organized manner. 
