@@ -1,5 +1,4 @@
 # Exercise 4: Calculate cumulative precipitation time series
-Developing cumulative precipitation time series...
 
 In this section you want to narrow down your area of study. You have noticed the strong differences of 
 SMI between Olpe (OE) and Hochsauerlandkreis (HSK) for the months of May and June of 2017. These response is 
@@ -7,7 +6,9 @@ atenuated in July, and in August the SMI is almost homogenous. How can you expla
 Does it have something to do with precipitation events? You will have to use the precipitation
 data offered by the German Weather Service (DWD) to find out.
 
-### Aggregate hourly precipitation to achieve daily resolution
+## Aggregate hourly precipitation rate to achieve daily precipitation rate
+
+To identify rain events you will plot daily precipitation in a vertical bar chart. You have to aggregate the hourly precipitation rate (mm/hr) over a day to yield the daily precipitation rate (mm/day). 
 Use the notebook provided in order to filter and aggregate your precipitation measurements.
 You should narrow down this analysis for the weather stations of
 counties of Olpe and Hochsauerlandkreis. 
