@@ -24,10 +24,9 @@ You should generate two diagrams:
 You should consider the following:
 - Think about how to organize the representation. 
 You are generating several graphs in one diagram from weather stations in OE and HSK (maybe using facets?)
-- Correct labeling of your graphs. Use legends when appropiate 
-- The images should be tidy. Take care of oclusions of graphs that are not readable.
-- Make sure to include relevant information in your plots, such as time resolution, 
-units, time period...
+- Consider correct labeling of your graphs. Use legends when appropiate.
+- The images should be tidy. Take care of occlusions of graphs that are not readable.
+- Make sure to include relevant information in your plots, such as time resolution, units, time period, etc.
 
 * [Previous](ex3.md)
 * [Next](ex5.md)
