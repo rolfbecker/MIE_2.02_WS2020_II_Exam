@@ -2,7 +2,7 @@
 Developing cumulative precipitation time series...
 
 In this section you want to narrow down your area of study. You have noticed the strong differences of 
-SMI between Olpe and Hochsauerlandkreis for the months of May and June of 2017. These response is 
+SMI between Olpe (OE) and Hochsauerlandkreis (HSK) for the months of May and June of 2017. These response is 
 atenuated in July, and in August the SMI is almost homogenous. How can you explain this?
 Does it have something to do with precipitation events? You will have to use the precipitation
 data offered by the German Weather Service (DWD) to find out.
