@@ -1,6 +1,6 @@
 # Exercise 8: Roof Tops of Industrial Buildings
 
-A new industrial facility is planned in the county of Olpe. 
+A new industrial facility with two buildings is planned in the county of Olpe. 
 The water raining on the roof of the buildings has to be drained. 
 To plan the drainage you have to determine the total amount of water collected by the roofs in the 
 four months May to August 2017. Assume that the annual precipitation sum is approximately 3 x the 
