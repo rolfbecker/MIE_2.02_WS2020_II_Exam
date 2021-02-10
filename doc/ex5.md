@@ -1,15 +1,11 @@
 # Exercise 5: Analyse cumulative precipitation vs altitude (DTM)
 Developing Exercise 6 Cumulative PP vs Alt...
 
-In this activity you should compare the altitude of the weather stations sensed from the DTM 50m 
-resolution layer with the altitude provided in the stations metadata. Are there any differences? 
-Where do they come from? 
+Investigate the relationship of cumulative precipitation and altitude of the precipitation stations for all stations of the 13 counties. Take the station altitudes from the station description file (station metadata). Sum up the precipitation per station for the four months May, June, July and August 2017 and plot it vs. altitude. Do you see a relationship? 
 
-Additionally, you will start gathering all the knowledge learnt from the previous exercises.
-It is time to start working on your discussions. Firstly, focus on the cumulative precipitation
-values at the end of the investigation period (2017-08-17?). Compare the measured values with
-the altitude of the stations from the DTM layer. Are there any differences? Can you find any patterns?
-How can you explain it?
+Create a map with the precipitation stations of the 13 counties together with the DTM 50m (similar to previous exercises). Change the stations' symbol color according to the precipitation sum over the four months. Do you see a relationship between total rain water gathered in four months and the station altitude?
+
+Compare the station altitudes given in the station metadata with the DTM altitude at the station locations. You can sample the DTM at the point features of the station layer easily and add this information to the attribute table of the station layer. Plot the differences. Where do these diferences come from?  
 
 You should consider the following:
 - You can directly compare the altitude values by using a nx2 table. Where n is the number of 
