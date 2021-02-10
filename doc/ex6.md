@@ -1,4 +1,4 @@
-# Exercise 6: Discuss different SMI dynamics in Olpe and Hochsauerlankreis
+# Exercise 6: Discuss different SMI dynamics in Olpe and Hochsauerlandkreis
 
 Pay special attention at the strong differences
 of SMI in the counties of Olpe (OE) and Hochsauerlandkreis (HSK) during the first two months of the study period.
