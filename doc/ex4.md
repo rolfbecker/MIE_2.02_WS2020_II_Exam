@@ -1,17 +1,18 @@
 # Exercise 4: Calculate cumulative precipitation time series
 
-In this section you want to narrow down your area of study. You have noticed the strong differences of 
-SMI between Olpe (OE) and Hochsauerlandkreis (HSK) for the months May and June 2017. The difference 
-decreases in July, and in August the SMI become quite similar. How can you explain this?
-Does it have something to do with precipitation events? You will have to use the precipitation
-data offered by the German Weather Service (DWD) to find out.
+In this section you want to narrow down your area of study and concentrate on the counties Olpe (OE) and Hochsauerlandkreis (HSK). 
+You may have noticed the strong differences of SMI between OE and HSK for the months May and June 2017. 
+The SMI difference decreases in July, and in August the SMI become quite similar. How can you explain this?
+Does it have something to do with precipitation events? 
+You will have to use the precipitation data offered by the German Weather Service (DWD) to find out.
+
+We would like to emphasize again that the monthly SMI data provided by the UFZ drought monitor are snapshots of actual values at the 16th of each month 
+(i.e. 2017-05-16, 2017-06-16, 2017-07-16, 2017-08-16). To investigate the influence of precipitation on SMI we look at the period from 2017-04-16 (one month before the first SMI map) until 2017-08-16 (the timestamp of last SMI map of interest). 
 
 ## Aggregate hourly precipitation rate to achieve daily precipitation rate
 
 To identify rain events you will plot daily precipitation in a vertical bar chart. You have to aggregate the hourly precipitation rate (mm/hr) over a day to yield the daily precipitation rate (mm/day). 
-Use the notebook provided in order to filter and aggregate your precipitation measurements.
-You should narrow down this analysis for the weather stations of
-counties of Olpe and Hochsauerlandkreis. Write a Python/Pandas script to aggregate the data to daily resolution. Consider to use the Pandas Dataframe function `df.group_by(...)`.
+Start with an appropriate Jupyter notebook from the lecture to create a dataframe with precipitation time series merged columnwise such that each column contains the time series for one station. Extend the notebook to aggregate the hourly data to daily resolution. Consider to use the Pandas Dataframe function `df.group_by(...)` or use other methods if you like.
 
 ### Cumulative precipitation time series
 You should generate two diagrams: 
