@@ -1,6 +1,6 @@
 # Exercise 5: Analyse cumulative precipitation vs altitude (DTM)
 
-Investigate the relationship of cumulative precipitation and altitude of the precipitation stations for all stations located in the 13 counties. Take the station altitudes from the station description file (station metadata). Sum up the precipitation per station for the four months May, June, July and August 2017 (one total rainfall value per station) and plot it vs. altitude. Do you see a relationship? 
+Investigate the relationship of cumulative precipitation and altitude of the precipitation stations for all stations located in the 13 counties. Take the station altitudes from the station description file (station metadata). Sum up the precipitation per station for the four months from 2017-04-16 til 2017-08-16 (one total rainfall value per station) and plot it vs. altitude. Do you see a relationship? 
 
 Create a map with the precipitation stations of the 13 counties together with the DTM 50m (similar to previous exercises). Change the stations' symbol color according to the precipitation sum (total rainfall) over the four months. Do you see a relationship between total rain water gathered in four months and the station location?
 
