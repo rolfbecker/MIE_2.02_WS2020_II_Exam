@@ -8,7 +8,7 @@ Overview of exercises guiding your investigation:
 * [Exercise 5](doc/ex5.md) Analyse cumulative precipitation vs. altitude (from DTM).
 * [Exercise 6](doc/ex6.md) Discuss different SMI dynamics in Olpe and Hochsauerlandkreis.
 * [Exercise 7](doc/ex7.md) NDVI
-* [Exercise 8](doc/ex8.md) Plan the rain water drainage for a large roof of a new industrial building.
+* [Exercise 8](doc/ex8.md) Dimension a roof drainage for two new industrial buildings.
 
 ## Introduction
 
