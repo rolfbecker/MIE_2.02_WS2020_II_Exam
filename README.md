@@ -1,4 +1,4 @@
-# MIE_2.02_WS2020_II_Exam
+# MIE_2.02_SS2021_III_Exam
 Overview of exercises guiding your investigation:
 
 * [Exercise 1](doc/ex1.md) Generate a map of the main investigation area.
